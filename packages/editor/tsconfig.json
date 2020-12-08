@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react",
+    "sourceMap": true,
+  },
+  "transpileOnly": true,
+  "files": ["./src/types/index.d.ts"],
+  "references": [
+    { "path": "../plugins"},
+    { "path": "../ui-kit"},
+  ]
+}
